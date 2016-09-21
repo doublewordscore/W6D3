@@ -1,1 +1,61 @@
 /* PHASE 1: Header */
+body {
+  background-color: #EEE;
+  /*margin: auto;*/
+}
+.header {
+  position: relative;
+  z-index: 1;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  /*margin: auto;*/
+  background-color: #F00;
+  color: #FFF;
+  border-bottom: 1px solid #CCC;
+}
+
+.header-nav {
+  display: block;
+  width: 900px;
+  margin: auto;
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+}
+
+.header-title {
+  display: block;
+  float: left;
+  font-weight: 700;
+  border-right: 1px solid #CCC;
+}
+
+.header-list {
+  display: block;
+  float: right;
+}
+
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header-list li {
+  display: block;
+  float: left;
+  border-left: 1px solid #CCC;
+}
+
+.header-list li:hover, a:hover {
+  background-color: #000;
+}
+
+/*.header-list li:last-child {
+  border-right: 1px solid #CCC;
+}*/
+
+.header a {
+  padding: 10px 20px;
+  display: block;
+}

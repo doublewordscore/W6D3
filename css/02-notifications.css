@@ -1,1 +1,59 @@
 /* PHASE 2: Notifications */
+.badge {
+  display: inline;
+  position: relative;
+  font-size: 14px;
+  background: #000;
+  border-radius:50%;
+  padding: 1px 6px;
+}
+.badge:after {
+  position:absolute;
+  width:18px;height:18px;
+  display: inline;
+  content:attr(data-badge);
+  color:white;
+  text-align:center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.header-dropdown:hover .badge {
+  background-color: #F00;
+}
+
+.header-dropdown ul {
+  position: absolute;
+  display: none;
+}
+
+.header-dropdown:hover > ul{
+  display: block;
+  color: #000;
+  margin-left: -1px;
+
+}
+
+.header-dropdown:hover > ul > li {
+  display: block;
+  float: none;
+  background-color: #FFF;
+  font-size: 14px;
+  border-right: 1px solid #CCC;
+  border-top: 1px solid #CCC;
+}
+
+.header-dropdown:hover > ul > li:last-child{
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom: 1px solid #CCC;
+  overflow: auto;
+}
+
+.header-dropdown > ul a {
+  background-color: #FFF;
+}
+
+.header-dropdown > ul a:hover {
+  background-color: #EEE;
+}
