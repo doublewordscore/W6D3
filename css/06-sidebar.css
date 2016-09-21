@@ -7,7 +7,7 @@
   border: 1px solid #000;
   position: relative;
   margin-top: -120px;
-  /*overflow: hidden;*/
+  overflow: auto;
 }
 
 .profile-info h2 {
