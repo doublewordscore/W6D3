@@ -1,1 +1,30 @@
 /* PHASE 4: Footer */
+
+
+.footer {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #AAA;
+  background-color: #FFF;
+  width: 900px;
+  margin: auto;
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+}
+
+.footer-copy {
+  float: left;
+  padding: 20px;
+}
+
+.footer-links {
+  float:right;
+}
+
+.footer-links > li {
+  display: block;
+  float: left;
+  padding-top: 20px;
+  padding-right: 20px;
+}
