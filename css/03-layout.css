@@ -1,20 +1,21 @@
 /* PHASE 3: Layout */
 
 .content {
-  background-color: green;
   margin: auto;
   width: 900px;
   border-right: 1px solid #CCC;
   border-left: 1px solid #CCC;
   border-bottom: 1px solid #CCC;
   position: relative;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  background-color: #FFF;
 }
 
 .content-main {
   float: left;
   width: 620px;
   min-height: 200px;
-  background-color: #FFF;
   padding: 20px;
 }
 
@@ -22,7 +23,6 @@
   float: left;
   width: 200px;
   min-height: 200px;
-  background-color: #FFF;
   padding: 20px;
 }
 
